@@ -2,7 +2,7 @@
 import React from 'react'
 import './About.css'
 import theme_pattern from '../../assets/theme_pattern.svg'
-import profile_img from '../../assets/me.png'
+// import profile_img from '../../assets/me.png'
 
 
 const About = () => {
@@ -13,9 +13,9 @@ const About = () => {
         <img src={theme_pattern} alt="" />
       </div>
       <div className="about-sections">
-        <div className="about-left">
+        {/* <div className="about-left">
             <img src={profile_img} alt="" />
-        </div>
+        </div> */}
         <div className="about-right">
             <div className="about-para">
                 <p>I am an experienced Frontend Developer with over a decade of professional expertise in the field. Throughout my career, I have had the privilege of collaborating with prestigious organizations, contributing to their success and growth.</p>
